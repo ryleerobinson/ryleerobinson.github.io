@@ -2,17 +2,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: blue;
+    color: orangered;
     background-color: rgb(205, 241, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Courier New' 'monospace' 'sans-serif';
 }
 nav{
-    height: 50vh;
+    height: 75vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:20px;
-    background-color: blue;
+    height:30px;
+    background-color: orangered;
 }
 nav a{
     width:10vw;
@@ -24,27 +24,27 @@ nav a{
 
 nav a:hover{
     background-color: rgb(250, 245, 186);
-    color: blue;
+    color: orange;
 }
 
 img{
-    width:40vw;
-    height: 40vh;
+    width:60vw;
+    height: 50vh;
 }
 
 #red-ball{
-    background-color: blue;
-    width: 20px;
-    height:20px;
+    background-color: yellow;
+    width: 40px;
+    height:40px;
     border-radius: 50%;
     position: absolute;
-    left:5vw;
+    left:7vw;
     top:0;
-    transition-duration: 5s;
+    transition-duration: 3s;
 }
 
 #red-ball:hover{
     background-color: rgb(250, 245, 186);
-    width: 800px;
-    height: 800px;
+    width: 1000px;
+    height: 1000px;
 }
