@@ -3,13 +3,13 @@
         background-color: lightblue;
     }
     body{
-        background-color: red;
+        background-color: lavender;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     nav {
         position: sticky;
         top: 0;
-        background-color: yellow;
+        background-color: hsl(60, 79%, 74%);
         padding: .5em;
     }
 
